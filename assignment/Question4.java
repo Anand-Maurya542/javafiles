@@ -2,7 +2,9 @@
 type String. This password is matched with two passwords say password1 and password2
 (already available in the program and both of type String). The program segment should continue
 asking the user to enter his/her password until the user correctly enters it. If the password matches
-, then the program segment should print "Welcome User.." */
+, then the program segment should print "Welcome User.."
+
+@author anandmaurya542@gmail.com  University of Delhi    */
 
 import java.util.*;
 class Password{

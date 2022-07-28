@@ -1,5 +1,3 @@
-// Question 3 - Write the code for method Multiply of class Matrix.
-//@ author- anandmaurya542@gmail.com     University of Delhi.....
 import java.util.*;
 class Matrix{
     int rows,cols;
@@ -41,7 +39,7 @@ class Matrix{
                 for (int j=0;j<B.cols;j++){
                     result[i][j]=0;
                     for (int k=0;k<B.rows;k++){
-                        result[i][j]+=a[i][k]*B.a[k][j];
+                       result[i][j]+=a[i][k]*B.a[k][j];
                     }
                     System.out.print(result[i][j]+"  ");
                 }

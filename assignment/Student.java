@@ -1,3 +1,4 @@
+//@author anandmaurya542@gmail.com  University of Delhi....
 import java.util.*;
 class Student{
     String name;
@@ -26,7 +27,7 @@ class Student{
             int a=sc.nextInt();
             total_quiz_score+=a;
         }
-        return total_quiz_score;
+        return (total_quiz_score);
     }
     public double calAvgScore(){
         System.out.println("Average is : "+total_quiz_score/number_of_quizzes_took);
